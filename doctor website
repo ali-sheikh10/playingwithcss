@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mediplus</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #f3f7fb;
+  color: #333;
+}
+
+header {
+  background: #fff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.nav-bar {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1a1a1a;
+}
+
+.logo span {
+  color: #007bff;
+}
+
+nav a {
+  margin: 0 12px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.btn-book {
+  background: #007bff;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+/* Hero Section with Full Background Image */
+.hero {
+  height: 80dvh;
+  background: url('Medical-doctors-and-nurse-practitioners-discuss-paperwork-in-a-hallway.jpg') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 60px;
+  position: relative;
+}
+
+.hero-content {
+  max-width: 600px;
+  background-color: rgba(255, 255, 255, 0.8); /* Optional: transparent white for readability */
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.hero-content h1 {
+  font-size: 42px;
+  line-height: 1.4;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  margin-bottom: 25px;
+  color: #555;
+}
+
+.blue {
+  color: #007bff;
+}
+
+.hero-buttons a {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 18px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+
+.btn-secondary {
+  background: #333;
+  color: white;
+}
+
+.info-cards {
+  display: flex;
+  gap: 20px;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.card {
+  background: #007bff;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  flex: 1;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h4 {
+  font-size: 14px;
+  color: #cce5ff;
+  margin-bottom: 5px;
+}
+
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #ebe7e7;
+  margin-top: 20px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #080808;
+}
+
+</style>
+</head>
+<body>
+
+  <header>
+    <div class="nav-bar">
+      <div class="logo">Medi<span>plus</span></div>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">Doctors</a>
+        <a href="#">Services</a>
+        <a href="#">Pages</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact Us</a>
+      </nav>
+      <a href="#" class="btn-book">Book Appointment</a>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>We Provide <span class="blue">Medical</span> Services<br>That You Can <span class="blue">Trust!</span></h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed nisi pellentesque, faucibus libero eu, gravida quam.</p>
+      <div class="hero-buttons">
+        <a href="#" class="btn-primary">Get Appointment</a>
+        <a href="#" class="btn-secondary">Contact Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="info-cards">
+    <div class="card">
+      <h4>Lorem Amet</h4>
+      <h3>Emergency Cases</h3>
+      <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+      <a href="#">LEARN MORE →</a>
+    </div>
+    <div class="card">
+      <h4>Fusce Porttitor</h4>
+      <h3>Doctors Timetable</h3>
+      <p>Lorem ipsum sit amet consectetur adipiscing elit. Vivamus et erat in lacus convallis sodales.</p>
+      <a href="#">LEARN MORE →</a>
+    </div>
+    <div class="card">
+      <h4>Donec luctus</h4>
+      <h3>Opening Hours</h3>
+      <p>Mon–Fri: 8.00–20.00<br>Sat: 8.00–18.00<br>Sun–Thu: 9.00–19.00</p>
+      <a href="#">LEARN MORE →</a>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-bottom">
+      <p>&copy; 2025 Mediplus. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
