@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Brainy Quote</title>
+  <style>
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      height: 100vh;
+    }
+
+    .title {
+      position: absolute;
+      top: 10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: blue;
+      color: white;
+      padding: 5px 10px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .quote {
+      width: 300px;
+      padding: 15px;
+      font-size: 20px;
+      border: 5px solid;
+      position: absolute;
+      background-color: white;
+    }
+
+    .orange {
+      border-color: orange;
+      top: 60px;
+      left: 10px;
+    }
+
+    .green {
+      border-color: green;
+      top: 60px;
+      right: 10px;
+    }
+
+    .yellow {
+      border-color: yellow;
+      bottom: 10px;
+      left: 10px;
+    }
+
+    .blue {
+      border-color: blue;
+      bottom: 10px;
+      right: 10px;
+    }
+  
+</style?
+</head>
+<body>
+
+  <div class="title">Brainy Quote</div>
+
+  <div class="quote orange">
+    Well, if crime fighters fight crime and fire fighters fight fire, what do freedom fighters fight? They never mention that part to us, do they? - George Carlin
+  </div>
+
+  <div class="quote green">
+    All you need in this life is ignorance and confidence, and then success is sure. - Mark Twain
+  </div>
+
+  <div class="quote yellow">
+    Great minds discuss ideas; average minds discuss events; small minds discuss people. - Eleanor Roosevelt
+  </div>
+
+  <div class="quote blue">
+    Turns out you have a really fun time if you go to work every day and focus on being silly and funny and happy! - Hannah Murray
+  </div>
+
+</body>
+</html>
